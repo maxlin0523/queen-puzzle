@@ -1,8 +1,6 @@
-﻿using QueensPuzzle;
-using System;
-using System.Collections.Generic;
+﻿using System;
 
-namespace EightQueensPuzzle
+namespace QueensPuzzle
 {
     class Program
     {

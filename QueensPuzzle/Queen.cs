@@ -110,7 +110,7 @@ namespace QueensPuzzle
         }
 
         /// <summary>
-        /// 轉換合法情況的棋盤(二維轉一維陣列)，目的是方便儲存
+        /// 轉換合法情況(二維轉一維陣列)，目的是方便儲存
         /// </summary>
         private List<string> FormatValidMap(string[,] map)
         {

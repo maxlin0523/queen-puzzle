@@ -29,13 +29,11 @@ namespace QueensPuzzle
         {
             // 初始化地圖
             var map = InitMap();
-
             var beginIndex = 0;
 
             SearchQueenValidation(map, beginIndex);
 
             var answer = PrintMap(_validMap);
-
             return answer;
         }
 
@@ -53,7 +51,6 @@ namespace QueensPuzzle
                     map[i, j] = ".";
                 }
             }
-
             return map;
         }
 
@@ -109,7 +106,7 @@ namespace QueensPuzzle
             return true;
         }
 
-        /// <summary>
+        /// s<summary>
         /// 轉換合法情況(二維轉一維陣列)，目的是方便儲存
         /// </summary>
         private List<string> FormatValidMap(string[,] map)
@@ -151,7 +148,6 @@ namespace QueensPuzzle
                 }
                 result.AppendLine();
             }
-
             return result.ToString();
         }
 
